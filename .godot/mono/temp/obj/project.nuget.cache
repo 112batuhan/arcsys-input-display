@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GPhl4/+Zcnlu5Kc+tjnce92PbEAGJrzYugy2V2SlEV7j4tUt+zCCNuCIqwADYMv4ZwoMMf7VOPnP7zsuF+TR5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\arcsys-input-display\\arcsys_input_display.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

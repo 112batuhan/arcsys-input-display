@@ -5,15 +5,15 @@ extends Line2D
 var queue:Array
 var last_pos = Vector2(0,0)
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	var pos = get_parent().position
 	var current_time = Time.get_ticks_msec()
 
-	
 	if last_pos != pos:
 		if queue.is_empty():
 			queue.push_front({"position": last_pos, "time": current_time + deletion_time})
-		queue.push_front({"position": pos, "time": current_time + deletion_time})
+		else:
+			queue.push_front({"position": pos, "time": current_time + deletion_time})
 	last_pos = pos
 	
 	for i in range(queue.size() - 1, -1, -1):

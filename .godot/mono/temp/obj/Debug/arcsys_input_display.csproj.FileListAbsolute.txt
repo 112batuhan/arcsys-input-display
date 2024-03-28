@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\bin\Debug\arcsys_input_display.deps.json
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\bin\Debug\arcsys_input_display.runtimeconfig.json
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\bin\Debug\arcsys_input_display.dll
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\bin\Debug\arcsys_input_display.pdb
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.AssemblyInfo.cs
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.csproj.CopyComplete
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.dll
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\refint\arcsys_input_display.dll
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.pdb
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\arcsys_input_display.genruntimeconfig.cache
+C:\Users\USER\Desktop\arcsys-input-display\.godot\mono\temp\obj\Debug\ref\arcsys_input_display.dll
