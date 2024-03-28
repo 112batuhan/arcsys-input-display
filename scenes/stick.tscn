@@ -1,0 +1,57 @@
+[gd_scene load_steps=7 format=3 uid="uid://bx18lmvs33wf8"]
+
+[ext_resource type="Script" path="res://scripts/Stick.gd" id="1_mjg7k"]
+[ext_resource type="Texture2D" uid="uid://do4ybx23ygoqe" path="res://assets/icon.svg" id="2_dk1ab"]
+[ext_resource type="Script" path="res://scripts/StickBall.gd" id="3_xks6x"]
+[ext_resource type="Script" path="res://scripts/Trail.gd" id="4_bkjl4"]
+
+[sub_resource type="Curve" id="Curve_ojf82"]
+_data = [Vector2(0, 0.505494), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_xftse"]
+offsets = PackedFloat32Array(0, 0.504951, 1)
+colors = PackedColorArray(0.766258, 0.229789, 0.69939, 1, 0.672756, 0.218545, 0.223145, 1, 0.752796, 0.3935, 0.187, 1)
+
+[node name="Stick" type="Node2D"]
+script = ExtResource("1_mjg7k")
+
+[node name="StickBall" type="Sprite2D" parent="."]
+z_index = 1
+scale = Vector2(0.45, 0.45)
+texture = ExtResource("2_dk1ab")
+script = ExtResource("3_xks6x")
+
+[node name="Trail" type="Line2D" parent="StickBall"]
+top_level = true
+width = 20.0
+width_curve = SubResource("Curve_ojf82")
+gradient = SubResource("Gradient_xftse")
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+script = ExtResource("4_bkjl4")
+
+[node name="BackgroundNodes" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Line2D" type="Line2D" parent="BackgroundNodes"]
+z_index = 1
+points = PackedVector2Array(100, 100, 500, 100, 500, 500, 100, 500)
+closed = true
+default_color = Color(0.168627, 0, 0.0862745, 1)
+joint_mode = 2
+begin_cap_mode = 2
+end_cap_mode = 2
+
+[node name="Line2D2" type="Line2D" parent="BackgroundNodes"]
+z_index = -1
+z_as_relative = false
+points = PackedVector2Array(300, 500, 300, 100)
+default_color = Color(0.168627, 0, 0.0862745, 1)
+
+[node name="Line2D3" type="Line2D" parent="BackgroundNodes"]
+z_index = -1
+z_as_relative = false
+points = PackedVector2Array(100, 300, 500, 300)
+default_color = Color(0.168627, 0, 0.0862745, 1)
